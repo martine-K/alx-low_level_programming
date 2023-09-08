@@ -8,15 +8,15 @@
  * Return: Always 0 (Succes)
  */
 
-
 int main(void)
 {
-	int num;
+	int n;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
+	for (n = 0 ; n < 10 ; n++)
+	{
+		putchar(n + '0');
+	}
 	putchar('\n');
-
 	return (0);
 }
+
