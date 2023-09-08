@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * 
+ * Author: Martine Kungu
+ * File: 6-print_numberz.c
+ * Return: Always 0 (Succes)
+ */
+
+
 int main(void)
 {
 	int num;
