@@ -3,9 +3,7 @@
 /**
  * main - Entry point
  * 
- * Author: Martine Kungu
- * File: 7-print_tebahpla.c
- * Return: Always 0 (Succes)
+ *  Return: Always 0 (Succes)
  */
 
 int main(void)
