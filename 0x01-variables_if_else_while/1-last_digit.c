@@ -2,6 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ *
+ * Return: Always 0 (Sucess)
+ * Author: Martine Kungu
+ * File: 1-last_digit.c
+ */
+
 int main(void)
 {
 	int n;
@@ -26,5 +35,4 @@ int main(void)
 	}
 
 	return (0);
-
 }
