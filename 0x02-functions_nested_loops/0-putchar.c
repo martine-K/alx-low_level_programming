@@ -1,5 +1,5 @@
-#include "stdio.h"
-/**
+#include <stdio.h>
+/*
  * main - prints the string "Martine Kungu ALX student" from a character array.
  * Return: 0 on success.
  */
