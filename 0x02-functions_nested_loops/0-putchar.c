@@ -1,17 +1,28 @@
-#include <stdio.h>
-/*
- * main - prints the string "Martine Kungu ALX student" from a character array.
- * Return: 0 on success.
+#include "main.h"
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success, 1 is returned.
+ * On error, -1 is returned, and errno is set appropriately.
  */
+int _putchar(char c)
+{
+  return (putchar(c));
+}
+
 int main(void)
 {
-	char c[] = "Martine Kungu ALX student";
-	int i;
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r');
+  _putchar('\n');
 
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+  return (0);
 }
