@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 /**
  * add - adds two numbers(a and b) together.
  * @a: The first number to be added.
